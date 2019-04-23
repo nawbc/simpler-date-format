@@ -1,0 +1,22 @@
+{
+  "name": "simpler-date-format",
+  "version": "1.0.0",
+  "description": "date format like java SimpleDateFormat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sewerganger/simple-date-format.git"
+  },
+  "keywords": [
+    "simple-date-format"
+  ],
+  "author": "sewerganger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sewerganger/simple-date-format/issues"
+  },
+  "homepage": "https://github.com/sewerganger/simple-date-format#readme"
+}
