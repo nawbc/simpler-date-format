@@ -21,7 +21,7 @@ add `~` before sentence to reverse output;
 在句子前加`~`可反转输出；
 
 ```
-const SimplerDateFormat = require('simper-date-format');
+const SimplerDateFormat = require('simpler-date-format');
 
 const weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday' ,'Sunday'];
 
@@ -34,8 +34,8 @@ sd.format(new Date());              //2019$04$23 22:36:44 2
 var sd = new SimplerDateFormat('h:m:d Y/M/D');
 sd.format(new Date());              //22:36:44 2019/04/23
 
-var sd = new SimplerDateFormat('h:m:d ~Y/M/D', week);
-sd.format(new Date());              //22:36:44 04/23/2019 Tuesday
+var sd = new SimplerDateFormat('@ h:m:d ~Y/M/D', week);
+sd.format(new Date());              // Tuesday 22:36:44 04/23/2019
 
 var sd = new SimplerDateFormat('h:m:d ~Y/M/D', week);
 sd.zone(8);              //22:36:44 04/23/2019 Tuesday Beijing time
